@@ -1,4 +1,4 @@
-# Soham Jain's Personal Website
+# Vini Rezanejad's Personal Website
 
 How to Run:
 ```
@@ -28,13 +28,3 @@ git push -u origin main
 # Step 3: Push to gh-pages
 npm run deploy
 ```
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- Tailwind CSS
-- more...
