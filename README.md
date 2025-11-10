@@ -6,7 +6,7 @@ How to Run:
 git clone https://github.com/vini-41/vini-41.github.io.git
 
 # Step 2: Navigate to the project directory.
-cd sjain2025.github.io
+cd vini-41.github.io
 
 # Step 3: Install the necessary dependencies.
 npm i
