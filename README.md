@@ -1,12 +1,12 @@
-# Vini Rezanejad's Personal Website
+# Soham Jain's Personal Website
 
 How to Run:
 ```
 # Step 1: Clone the repository.
-git clone https://github.com/Vini-41/Vini-41.github.io.git
+git clone https://github.com/sjain2025/sjain2025.github.io.git
 
 # Step 2: Navigate to the project directory.
-cd Vini-41.github.io
+cd sjain2025.github.io
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -28,3 +28,13 @@ git push -u origin main
 # Step 3: Push to gh-pages
 npm run deploy
 ```
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- Tailwind CSS
+- more...
