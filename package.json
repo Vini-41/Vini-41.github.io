@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sjain2025.github.io/",
+  "homepage": "https://vini-41.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
