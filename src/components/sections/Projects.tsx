@@ -21,14 +21,15 @@ const Projects = () => {
       }
     },
     {
-      title: "MAXGBoost: A Fast Heuristic Approach to Adaptive Learning Rates in GBDTs",
-      description: "\"Novel momentum approximation and adaptation framework for Gradient Boosted Decision Trees (GBDTs) that dynamically adjusts learning rates to optimize convergence speed, achieving state-of-the-art performance on highly imbalanced datasets",
+      title: "MAXGBoost: A Fast Heuristic Approach to Adaptive Learning Rates in Gradient Boosted Decision Trees",
+      description: "Novel momentum approximation and adaptation framework for Gradient Boosted Decision Trees (GBDTs) that dynamically adjusts learning rates to optimize convergence speed, achieving state-of-the-art performance on highly imbalanced datasets",
       icon: <ShieldCheck className="h-8 w-8"/>,
       period: "January 2025",
       technologies: ["Python", "TensorFlow", "scikit-learn", "pandas", "NumPy", "Matplotlib"],
       achievements: [
           "Achieved 99.98% accuracy and 93.8% precision (6% improvement over baseline XGBoost) on 284,807 transactions with 0.2% fraud rate",
-          "Minimized costly false positives while outperforming previous gradient boosting models",
+          "Minimized costly false positives while outperforming previous models",
+          "Eliminates the need for manual hyperparameter tuning, reducing significant computational overhead for gradient boosting algorithm"
       ],
       links: {
           demo: "#",
@@ -107,17 +108,8 @@ const Projects = () => {
                 </div>
 
                 {/* Links to demo and source code */}
-                {project.title !== "NeurOS" && (
+                {project.title !== "exception" && (
                   <div className="flex flex-wrap gap-3 pt-4 border-t border-primary/20">
-                    <Button 
-                      className="primary-gradient hover:scale-105 transition-all duration-200 shadow-md hover:shadow-lg flex-1 sm:flex-none"
-                      asChild
-                    >
-                      <a href={project.links.demo} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        {project.title === "RoutineRemind" ? "Read More" : project.title === "CMUEats" ? "View Website" : "View Demo"}
-                      </a>
-                    </Button>
                     <Button 
                       variant="outline"
                       className="hover:scale-105 transition-all duration-200 border border-primary/30 hover:bg-transparent hover:text-white hover:border-white flex-1 sm:flex-none"
