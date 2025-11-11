@@ -22,6 +22,8 @@ const Education = () => {
       gpa: "",
       achievements: [
         "Archimedes Design Team",
+        "Google Developer Group",
+        "Circle K International",
         "Latin Link"
       ]
     },
