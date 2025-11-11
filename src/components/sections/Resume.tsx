@@ -6,7 +6,7 @@ const Resume = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = resumePdf;
-    link.download = 'Soham_Jain_Resume.pdf';
+    link.download = 'ViniRezanejad.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -32,7 +32,7 @@ const Resume = () => {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                       <FileText className="h-5 w-5 text-primary" />
-                      <span className="font-medium">Soham_Jain_Resume</span>
+                      <span className="font-medium">ViniRezanejad</span>
                     </div>
                     <Button
                       variant="ghost"
@@ -49,7 +49,7 @@ const Resume = () => {
                   <iframe
                     src={resumePdf}
                     className="w-full h-full border-0"
-                    title="Soham Jain Resume"
+                    title="Vini Rezanejad Resume"
                     loading="lazy"
                   />
                 </div>
@@ -78,7 +78,7 @@ const Resume = () => {
               <div className="bg-card rounded-2xl p-6 shadow-medium border border-border">
                 <h3 className="text-xl font-semibold mb-4">Contact Me</h3>
                 <p className="text-muted-foreground mb-4">
-                  Interested in my background? Let's connect!
+                  Want to know more about me? Let's connect!
                 </p>
                 <Button
                   variant="outline"

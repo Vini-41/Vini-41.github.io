@@ -13,42 +13,53 @@ interface ExperienceItem {
 const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
-      company: "Vytal.AI",
-      position: "Software and Machine Learning Engineer",
-      period: "May 2022 - Dec 2024",
-      location: "Alexandria, Virginia",
-      description: "Developed an AI-powered mobile application for rapid brain health assessment through state-of-the-art eye-tracking technology at a venture capital-backed startup.",
+      company: "Ibility LLC",
+      position: "Artificial Intelligence Intern",
+      period: "August 2023 – September 2024",
+      location: "Washington, DC (Remote)",
+      description: "Developed a retrieval-augmented generation (RAG) chatbot to help veterans, web scraping and structuring tens of thousands of procedural documents into a knowledge graph with vector search.",
       achievements: [
-        "Built smartphone AI application using OpenCV and React Native to quantify brain health via 30-second eye-tracking evaluations",
-        "Optimized Python-based biometric processing pipelines and deployed machine learning models on AWS EC2, scaling the platform to support 300+ clinical beta testers",
-        "Engineered head-gaze detection algorithm with YOLOv8 that delivered 15% higher accuracy compared to previous implementations"
+        "Built chatbot prototype for Veterans Affairs claims assistance to help veterans navigate complex financial aid processes",
+        "Deployed web scraping pipeline to extract 30,000+ legal documents from the VA's M28C manual and VR&E program documentation, overcoming JavaScript rendering, anti-bot protections, and inconsistent HTML structures across multiple chapters",
+        "Designed custom text embedding and chunking system with token optimization strategies to manage context windows, ensuring accurate retrieval of legal information while eliminating model hallucinations on sensitive veteran benefit queries"
       ],
-      technologies: ["Python", "OpenCV", "React Native", "AWS EC2", "YOLOv8", "Machine Learning"]
+      technologies: ["Python", "Selenium", "Pandas", "NumPy", "BeautifulSoup", "Dash"]
     },
     {
-      company: "Virginia Tech",
-      position: "Computer Science and Quantum Computing Researcher",
-      period: "April 2024 - May 2025",
+      company: "Archimedes Infinitum Design Team",
+      position: "Back End Developer",
+      period: "September 2025 - Present",
       location: "Blacksburg, Virginia",
-      description: "Conducted advanced research on quantum algorithms and their applications to computational problems under the guidance of Dr. Atul Mantri.",
+      description: "Competing in the Microsoft Imagine Cup Competition by developing and building software addressing real-world problems.",
       achievements: [
-        "Led research initiative applying Grover's algorithm to boolean satisfiability problems using Qiskit and Q# frameworks",
-        "Designed quantum-classical hybrid algorithm to solve the graph coloring problem for a map of all 50 U.S. states using MATLAB and Python",
-        "Achieved 65% reduction in computational cost compared to traditional classical recursive approaches"
+        "Developing patent-pending physical therapy app that leverages NLP and real-time computer vision to generate personalized treatment plans and provide exercise form correction based on patient goals and mobility assessments",
+        "Architecting two care pathways enabling patients to receive support through clinician-prescribed plans or independently via AI-guided therapy, extending physical therapy to users without healthcare provider access",
+        "Implementing cloud-based data management to synchronize patient exercise data, performance metrics, and completion reports across wide range of platforms, facilitating healthcare provider oversight"
       ],
-      technologies: ["Python", "MATLAB", "Qiskit", "Q#", "Quantum Computing", "Algorithm Design"]
+      technologies: ["Python", "TensorFlow", "PyTorch", "YOLOv8", "OpenCV", "MediaPipe", "Azure", "React", "Cosmos DB"]
     },
     {
-      company: "Youth International Digambar Jain Organization",
-      position: "President and Co-Founder",
-      period: "February 2022 - Present",
-      description: "Lead non-profit organization dedicated to education and community building centered on Jain philosophy and cultural values.",
+      company: "Key Club",
+      position: "President",
+      period: "August 2022 - June 2025",
+      description: "Directed all club operations, presiding over weekly meetings and coordinating committees to execute monthly service projects benefiting the school and local community.",
       achievements: [
-        "Direct educational programming that teaches Jain principles including ahimsa (non-violence) and peace to over 150 students",
-        "Oversee fundraising initiatives that have secured more than $25,000 for the construction of a temple serving as a center for worship and cultural events in Northern Virginia"
+        "Coordinated 9 community service projects including neighborhood cleanups, food bank assistance, and senior center visits, while participating in 30+ volunteer events with District Key Club and Kiwanis Club",
+        "Developed organizational and leadership skills through strategic community impact initiatives, helping serve underserved populations"
       ],
       technologies: []
-    }
+    },
+    {
+       company: "Humanitarian Aid Club",
+       position: "Secretary",
+       period: "September 2022 - June 2025",
+       description: "Researched and presented on global humanitarian issues, motivating members to take action on poverty, conflict, and crisis situations.",
+       achievements: [
+          "Raised $750 through coordinated fundraisers, managing logistics, tracking donations, and ensuring financial goals were met for supported causes",
+          "Led club discussions that challenged member perspectives and converted awareness into engagement through eﬀective communication and presentation skills"
+      ],
+      technologies: []
+  }
   ];
 
   return (

@@ -42,7 +42,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('#hero')}
             className="text-xl font-bold text-gradient hover:scale-105 transition-transform duration-300 cursor-pointer"
           >
-            Soham Jain
+            Vini Rezanejad
           </button>
 
           {/* Desktop menu - hidden on mobile */}

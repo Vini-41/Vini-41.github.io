@@ -5,27 +5,24 @@ const Education = () => {
     "Data Structures and Algorithms",
     "Artificial Intelligence",
     "Applied Machine Learning",
-    "Discrete Mathematics",
-    "Computational Linear Algebra",
     "Multivariable Calculus",
-    "Computer Vision",
+    "Computational Linear Algebra",
+    "Statistics",
     "Mobile and Web Application Development",
-    "Research Statistics",
-    "Psychology",
-    "Biology"
+    "Macroeconomics",
+    "Microeconomics"
   ];
 
   const education = [
     {
-      institution: "Carnegie Mellon University",
-      location: "Pittsburgh, PA",
+      institution: "Virginia Tech",
+      location: "Blacksburg, VA",
       degree: "Bachelor of Science in Computer Science",
-      period: "May 2027",
+      period: "May 2029",
       gpa: "",
       achievements: [
-        "Software Developer at Scotty Labs on the CMUEats team",
-        "Association of Computing Machinery Tech Developer",
-        "Spikeball and Pickleball Club"
+        "Archimedes Design Team",
+        "Latin Link"
       ]
     },
     {
@@ -34,10 +31,12 @@ const Education = () => {
       degree: "High School Diploma",
       period: "",
       description: "",
-      gpa: "4.535 (weighted) | 4.0 (unweighted)",
+      gpa: "",
       achievements: [
-        "Captain of Congressional Debate",
-        "Student Government Association Policy Specialist & Executive Committee Member",
+        "President of Key Club",
+        "Secretary of Humanitarian Aid Club",
+        "Varsity Defensive Lineman",
+        "Tutor and Mentor at Math Center"
       ]
     }
   ];

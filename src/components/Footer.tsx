@@ -27,10 +27,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* About section with social links */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold text-gradient mb-4">Soham Jain</h3>
+            <h3 className="text-2xl font-bold text-gradient mb-4">Vini Rezanejad</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-md">
-              Computer Science at Carnegie Mellon University, software developer, AI researcher, 
-              and entrepreneur.
+              Researcher, Developer, and Entrepreneur
             </p>
             
             {/* Social media buttons */}
@@ -41,7 +40,7 @@ const Footer = () => {
                 className="group relative rounded-full hover:scale-110 transition-all duration-300 hover:bg-primary/10 w-12 h-12 backdrop-blur-sm border border-primary/20 hover:border-primary/40"
                 asChild
               >
-                <a href="mailto:sohamj@andrew.cmu.edu" aria-label="Email">
+                <a href="mailto:ok77@vt.edu" aria-label="Email">
                   <Mail className="h-5 w-5 transition-colors group-hover:text-primary" />
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
@@ -52,7 +51,7 @@ const Footer = () => {
                 className="group relative rounded-full hover:scale-110 transition-all duration-300 hover:bg-primary/10 w-12 h-12 backdrop-blur-sm border border-primary/20 hover:border-primary/40"
                 asChild
               >
-                <a href="https://www.linkedin.com/in/soham-jain1/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/vr41/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5 transition-colors group-hover:text-primary" />
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
@@ -63,19 +62,8 @@ const Footer = () => {
                 className="group relative rounded-full hover:scale-110 transition-all duration-300 hover:bg-primary/10 w-12 h-12 backdrop-blur-sm border border-primary/20 hover:border-primary/40"
                 asChild
               >
-                <a href="https://github.com/sjain2025" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/vini-41" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-5 w-5 transition-colors group-hover:text-primary" />
-                  <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </a>
-              </Button>
-              <Button 
-                variant="ghost" 
-                size="icon"
-                className="group relative rounded-full hover:scale-110 transition-all duration-300 hover:bg-primary/10 w-12 h-12 backdrop-blur-sm border border-primary/20 hover:border-primary/40"
-                asChild
-              >
-                <a href="https://www.youtube.com/@CodingWithSohamJain" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                  <Youtube className="h-5 w-5 transition-colors group-hover:text-primary" />
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
               </Button>
@@ -104,7 +92,7 @@ const Footer = () => {
         {/* Copyright and tech stack info */}
         <div className="border-t border-border mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-            © {currentYear} Soham Jain. All rights reserved.
+            © {currentYear} Vini Rezanejad. All rights reserved.
           </p>
           
           <div className="flex items-center text-muted-foreground text-sm">

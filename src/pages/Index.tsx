@@ -9,7 +9,6 @@ import Research from '@/components/sections/Research';
 import Awards from '@/components/sections/Awards';
 import Contact from '@/components/sections/Contact';
 import Footer from '@/components/Footer';
-import Chatbot from '@/components/Chatbot';
 
 const Index = () => {
   return (
@@ -23,12 +22,9 @@ const Index = () => {
         <Skills />
         <Experience />
         <Projects />
-        <Research />
-        <Awards />
         <Contact />
       </main>
       <Footer />
-      <Chatbot />
     </div>
   );
 };

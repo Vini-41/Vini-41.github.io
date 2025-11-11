@@ -1,95 +1,38 @@
-import { ExternalLink, Github, Smartphone, Eye, Users, Utensils, Brain } from 'lucide-react';
+import {ExternalLink, Github, Smartphone, Eye, Users, Utensils, Brain, BookOpen, ShieldCheck} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Projects = () => {
   const projects = [
     {
-      title: "RoutineRemind",
-      description: "Provisional patented, utility patent-pending scheduling application specifically designed for individuals with speech and cognitive disabilities. Currently being deployed on both Google Play Store and Apple App Store.",
-      icon: <Smartphone className="h-8 w-8" />,
-      period: "June 2022 - Present",
-      technologies: ["React", "JavaScript", "TypeScript", "Python", "HTML/CSS", "Firebase", "Rasa"],
+      title: "A Novel RAG-Based Chatbot Solution to Improve Textbook Material Understanding",
+      description: "Retrieval-Augmented Generation Chatbot combining semantic search with active recall methodologies to enhance textbook comprehension and study effectiveness, addressing limitations of mainstream LLMs in extracting relevant information from lengthy academic materials.",
+      icon: <BookOpen className="h-8 w-8" />,
+      period: "June 2025",
+      technologies: ["Python", "pandas", "Pillow", "Deepgram", "HTML/CSS", "Javascript", "pytesseract"],
       achievements: [
-        "First place in Congressional App Challenge (top 4%)",
-        "Demoed project to Representatives at Capitol Hill",
-        "Integration in local schools for children with autism",
-        "Uses NLP and audio classification for personalized schedules",
-        "Patent-pending technology for speech and cognitive disabilities"
-      ],
-      links: {
-        demo: "https://www.congressionalappchallenge.us/22-va10/",
-        github: "https://github.com/sjain2025/RoutineRemind"
-      }
-    },
-    {
-      title: "EyeLS",
-      description: "Gaze-tracking web application designed to enable ALS patients to communicate nonverbally. Implements Kalman Filtering and Monte Carlo algorithms for precise eye movement detection.",
-      icon: <Eye className="h-8 w-8" />,
-      period: "August 2023 - Present",
-      technologies: ["JavaScript", "HTML/CSS", "Computer Vision", "Kalman Filtering", "Monte Carlo"],
-      achievements: [
-        "Awarded IEEE Technical Excellence for ridge regression implementation",
-        "92% calibration accuracy for eye movement to click mapping",
-        "Saves over $15,000 annually for patients with neurodegenerative disorders",
-        "Enables nonverbal communication for ALS patients",
-        "Monte-Carlo Kalman Filtering for refined gaze predictions",
-        "Cost-effective alternative to expensive eye-tracking devices"
-      ],
-      links: {
-        demo: "https://www.youtube.com/watch?v=YAlBLGYtgLA",
-        github: "https://github.com/sjain2025/EyeLS"
-      }
-    },
-    {
-      title: "CMUEats",
-      description: "Comprehensive dining locations website for Carnegie Mellon University, providing real-time information about campus dining options, hours, and menus. Developed as part of ScottyLabs student organization.",
-      icon: <Utensils className="h-8 w-8" />,
-      period: "August 2025 - Present",
-      technologies: ["Vite", "React", "TypeScript", "HTML", "Vanilla CSS", "Elysia"],
-      achievements: [
-        "Serves 10,000+ users monthly with live API data",
-        "Geospatial routing system using REST APIs and Apple Maps",
-        "Sorts dining locations by walking distance",
-        "Streamlines menus and specials for campus community",
-        "Most used student-made website on campus",
-        "Real-time integration with Dining Services"
-      ],
-      links: {
-        demo: "https://cmueats.com/",
-        github: "https://github.com/ScottyLabs/cmueats"
-      }
-    },
-    {
-      title: "Memory Lane",
-      description: "Mobile application designed to provide people with Alzheimer's and other memory loss-related conditions with a platform to replay memories from their past. The app requires a login through email for each user, and upon authentication, the user is presented with three options: Add an entry, Ask a question, and a unique feature called \"A Memory A Day.\"",
-      icon: <Brain className="h-8 w-8" />,
-      period: "March 2023 - June 2024",
-      technologies: ["React Native", "JavaScript", "Firebase", "TypeScript", "HTML/CSS"],
-      achievements: [
-        "Designed for Alzheimer's and memory loss patients",
-        "Interactive Q&A feature built with NLPs",
-        "Email-based authentication system",
-        "User-friendly interface for elderly users"
-      ],
-      links: {
-        demo: "https://www.youtube.com/watch?v=ySS6zBkvRq4",
-        github: "https://github.com/sjain2025/MemoryLane"
-      }
-    },
-    {
-      title: "NeurOS",
-      description: "Smartphone AI application that quantifies brain health using gaze-tracking algorithms. Developed during my time at Vytal.AI.",
-      icon: <Users className="h-8 w-8" />,
-      period: "May 2022 - Present",
-      technologies: ["React Native", "Python", "AI/ML", "Mobile Development", "Computer Vision"],
-      achievements: [
-        "Novel gaze-tracking algorithms for brain health",
-        "AI-powered health assessment platform",
-        "Commercial deployment and user acquisition"
+        "Obtained 0.906/1.0 average performance score across 6 AP-level subjects, demonstrating strong reasoning capabilities and memory retention while providing credible academic assistance adaptable to diverse formats and subject domains",
+        "Integrated Rephrase-and-Respond (RaR) strategy reducing hallucinations by 13% and improving output quality across technical subjects including Chemistry (0.921), History (0.952), and Physics (0.895)",
+        "Engineered multi-format text extraction pipeline supporting PDFs, images, and MP3 audiobooks with 384-dimensional SBERT embeddings for semantic retrieval",
+        "Reduced GPT-3.5 citation fabrication from 55% to 24%, achieving 76% citation correctness rate when sources were present through RAG framework implementation"
       ],
       links: {
         demo: "#",
-        github: "#"
+        github: "https://github.com/Vini-41/textbook_RAG_chatbot"
+      }
+    },
+    {
+      title: "MAXGBoost: A Fast Heuristic Approach to Adaptive Learning Rates in GBDTs",
+      description: "\"Novel momentum approximation and adaptation framework for Gradient Boosted Decision Trees (GBDTs) that dynamically adjusts learning rates to optimize convergence speed, achieving state-of-the-art performance on highly imbalanced datasets",
+      icon: <ShieldCheck className="h-8 w-8"/>,
+      period: "January 2025",
+      technologies: ["Python", "TensorFlow", "scikit-learn", "pandas", "NumPy", "Matplotlib"],
+      achievements: [
+          "Achieved 99.98% accuracy and 93.8% precision (6% improvement over baseline XGBoost) on 284,807 transactions with 0.2% fraud rate",
+          "Minimized costly false positives while outperforming previous gradient boosting models",
+      ],
+      links: {
+          demo: "#",
+          github: "https://github.com/Vini-41/MAXGBoost"
       }
     }
   ];
@@ -202,7 +145,7 @@ const Projects = () => {
               className="hover:scale-105 transition-all duration-200 border border-primary/30 hover:bg-transparent hover:text-white hover:border-white"
               asChild
             >
-              <a href="https://github.com/sjain2025" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/vini-41" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5 mr-2" />
                 View All Projects
               </a>

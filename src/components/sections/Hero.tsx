@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="flex-shrink-0 animate-fade-up [animation-delay:0.05s]">
               <img 
                 src={profileImage} 
-                alt="Soham Jain" 
+                alt="Vini Rezanejad"
                 className="w-60 h-60 md:w-68 md:h-68 lg:w-72 lg:h-72 xl:w-80 xl:h-80 rounded-3xl shadow-hard border-4 border-primary/20 object-cover object-center scale-[1.13]"
                 loading="eager"
                 decoding="async"
@@ -42,15 +42,14 @@ const Hero = () => {
             <div className="flex-1 text-center lg:text-left max-w-2xl mt-14">
               <h1 className="text-6xl md:text-8xl font-bold mb-8 animate-fade-up [animation-delay:0.05s]">
                 <span className="inline-block overflow-hidden border-r-4 border-primary whitespace-nowrap animate-typing-blink bg-gradient-to-r from-white via-primary to-accent bg-clip-text text-transparent">
-                  Soham Jain
+                  Vini Rezanejad
                 </span>
               </h1>
               
               <p className="text-xl md:text-2xl text-white font-bold mb-10 animate-fade-up [animation-delay:0.05s] whitespace-nowrap">Software Engineer  •  AI Researcher  •  Entrepreneur</p>
               
               <p className="text-xl md:text-2xl text-white/90 mb-12 animate-fade-up [animation-delay:0.05s] leading-relaxed">
-              Ambitious computer scientist with a passion for software development and artificial intelligence. Leveraging
-              interpersonal skills and technical proficiency to innovate modern solutions to real-world problems.
+              Aspiring machine learning scientist with a passion for artificial intelligence and research.
               </p>
             </div>
           </div>
@@ -94,7 +93,7 @@ const Hero = () => {
               className="group relative rounded-full hover:scale-110 transition-all duration-300 hover:bg-primary/10 w-14 h-14 backdrop-blur-sm border border-primary/20 hover:border-primary/40"
               asChild
             >
-              <a href="mailto:sohamj@andrew.cmu.edu" aria-label="Email">
+              <a href="mailto:ok77@vt.edu" aria-label="Email">
                 <Mail className="h-6 w-6 transition-colors group-hover:text-primary" />
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
@@ -105,7 +104,7 @@ const Hero = () => {
               className="group relative rounded-full hover:scale-110 transition-all duration-300 hover:bg-primary/10 w-14 h-14 backdrop-blur-sm border border-primary/20 hover:border-primary/40"
               asChild
             >
-              <a href="https://www.linkedin.com/in/soham-jain1/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/vr41/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-6 w-6 transition-colors group-hover:text-primary" />
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
@@ -116,19 +115,8 @@ const Hero = () => {
               className="group relative rounded-full hover:scale-110 transition-all duration-300 hover:bg-primary/10 w-14 h-14 backdrop-blur-sm border border-primary/20 hover:border-primary/40"
               asChild
             >
-              <a href="https://github.com/sjain2025" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/vini-41" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github className="h-6 w-6 transition-colors group-hover:text-primary" />
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </a>
-            </Button>
-            <Button 
-              variant="ghost" 
-              size="icon"
-              className="group relative rounded-full hover:scale-110 transition-all duration-300 hover:bg-primary/10 w-14 h-14 backdrop-blur-sm border border-primary/20 hover:border-primary/40"
-              asChild
-            >
-              <a href="https://www.youtube.com/@CodingWithSohamJain" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                <Youtube className="h-6 w-6 transition-colors group-hover:text-primary" />
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
             </Button>

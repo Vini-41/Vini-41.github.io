@@ -35,7 +35,7 @@ const Contact = () => {
       
       if (!serviceId || !templateId || !publicKey) {
         // If no email service, just open their email client
-        const mailtoLink = `mailto:sohamj@andrew.cmu.edu?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+        const mailtoLink = `mailto:ok77@vt.edu?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
           `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
         )}`;
         window.location.href = mailtoLink;
@@ -55,7 +55,7 @@ const Contact = () => {
         from_email: formData.email,
         subject: formData.subject,
         message: formData.message,
-        to_email: 'sohamj@andrew.cmu.edu'
+        to_email: 'ok77@vt.edu'
       };
       
       // Actually send the email
@@ -71,7 +71,7 @@ const Contact = () => {
       console.error('Error sending email:', error);
       
       // If something goes wrong, fall back to email client
-      const mailtoLink = `mailto:sohamj@andrew.cmu.edu?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      const mailtoLink = `mailto:ok77@vt.edu?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
         `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
       )}`;
       window.location.href = mailtoLink;
@@ -90,19 +90,19 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       label: "Email",
-      value: "sohamj@andrew.cmu.edu",
-      link: "mailto:sohamj@andrew.cmu.edu"
+      value: "ok77@vt.edu",
+      link: "mailto:ok77@vt.edu"
     },
     {
       icon: <Phone className="h-6 w-6" />,
       label: "Phone",
-      value: "+1 (240) 728-8946",
-      link: "tel:+12407288946"
+      value: "+1 (571) 466-9171",
+      link: "tel:+15714669171"
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       label: "Location",
-      value: "Ashburn, VA / Pittsburgh, PA",
+      value: "Fairfax, VA / Blacksburg, Va",
       link: null
     }
   ];
@@ -111,14 +111,14 @@ const Contact = () => {
     {
       icon: <Github className="h-6 w-6" />,
       label: "GitHub",
-      url: "https://github.com/sjain2025",
-      username: "@sjain2025"
+      url: "https://github.com/vini-41",
+      username: "@vini-41"
     },
     {
       icon: <Linkedin className="h-6 w-6" />,
       label: "LinkedIn",
-      url: "https://www.linkedin.com/in/soham-jain1/",
-      username: "in/soham-jain1"
+      url: "https://www.linkedin.com/in/vr41/",
+      username: "in/vr41"
     }
   ];
 
