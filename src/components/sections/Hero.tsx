@@ -49,7 +49,7 @@ const Hero = () => {
               <p className="text-xl md:text-2xl text-white font-bold mb-10 animate-fade-up [animation-delay:0.05s] whitespace-nowrap">Software Engineer  •  AI Researcher  •  Entrepreneur</p>
               
               <p className="text-xl md:text-2xl text-white/90 mb-12 animate-fade-up [animation-delay:0.05s] leading-relaxed">
-              Aspiring machine learning scientist with a passion for artificial intelligence and research.
+              Aspiring machine learning scientist driven by a fascination with understanding how intelligence works and can be engineered
               </p>
             </div>
           </div>
