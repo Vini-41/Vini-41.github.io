@@ -29,7 +29,7 @@ const Projects = () => {
       achievements: [
           "Achieved 99.98% accuracy and 93.8% precision (6% improvement over baseline XGBoost) on 284,807 transactions with 0.2% fraud rate",
           "Minimized costly false positives while outperforming previous models",
-          "Eliminates the need for manual hyperparameter tuning, reducing significant computational overhead for gradient boosting algorithm"
+          "Eliminated the need for manual hyperparameter tuning, reducing significant computational overhead for gradient boosting algorithms"
       ],
       links: {
           demo: "#",
