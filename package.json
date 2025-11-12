@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --dotfiles false"
+    "deploy": "gh-pages -d dist --no-history --force"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
