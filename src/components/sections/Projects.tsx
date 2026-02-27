@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       title: "MAXGBoost: A Fast Heuristic Approach to Adaptive Learning Rates in Gradient Boosted Decision Trees",
-      description: "Novel momentum approximation and adaptation framework for Gradient Boosted Decision Trees (GBDTs) that dynamically adjusts learning rates to optimize convergence speed, achieving state-of-the-art performance on highly imbalanced datasets",
+      description: "Novel momentum approximation and adaptation framework for Gradient Boosted Decision Trees (GBDTs) that dynamically adjusts learning rates to optimize convergence speed on highly imbalanced datasets",
       icon: <ShieldCheck className="h-8 w-8"/>,
       period: "January 2025",
       technologies: ["Python", "TensorFlow", "scikit-learn", "pandas", "NumPy", "Matplotlib"],
