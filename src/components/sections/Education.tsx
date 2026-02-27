@@ -5,12 +5,12 @@ const Education = () => {
     "Data Structures and Algorithms",
     "Artificial Intelligence",
     "Applied Machine Learning",
-    "Multivariable Calculus",
-    "Computational Linear Algebra",
+    "Discrete Math",
     "Statistics",
     "Mobile and Web Application Development",
     "Macroeconomics",
-    "Microeconomics"
+    "Microeconomics",
+    "Chemistry"
   ];
 
   const education = [

@@ -32,7 +32,7 @@ const Experience = () => {
       location: "Blacksburg, Virginia",
       description: "Competing in the Microsoft Imagine Cup Competition by developing and building software addressing real-world problems.",
       achievements: [
-        "Developing patent-pending physical therapy app that leverages NLP and real-time computer vision to generate personalized treatment plans and provide exercise form correction based on patient goals and mobility assessments",
+        "Developing a physical therapy app that leverages NLP and real-time computer vision to generate personalized treatment plans and provide exercise form correction based on patient goals and mobility assessments",
         "Architecting two care pathways enabling patients to receive support through clinician-prescribed plans or independently via AI-guided therapy, extending physical therapy to users without healthcare provider access",
         "Implementing cloud-based data management to synchronize patient exercise data, performance metrics, and completion reports across wide range of platforms, facilitating healthcare provider oversight"
       ],
