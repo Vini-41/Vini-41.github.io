@@ -30,7 +30,7 @@ const Education = () => {
     {
       institution: "Thomas Jefferson High School for Science and Technology",
       location: "Alexandria, VA",
-      degree: "High School Diploma",
+      degree: "Advanced Studies Diploma",
       period: "",
       description: "",
       gpa: "",
